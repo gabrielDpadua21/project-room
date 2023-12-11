@@ -1,0 +1,30 @@
+MAN PROJECT ROOM
+
+- COMMANDS
+
+ROOM - runs a docker compose
+-- EX: room or room service_name
+
+SHAMBLES - runs a docker compose -it with args
+-- EX: shambles service_name or shambles service_name bash
+-- args: bash, sh 
+
+COUNTER-SHOCK - runs docker compose restart
+-- EX: cs or cs service_name
+
+SCAN - runs a docker compose logs
+-- EX: scan service_name or scan 100 service_name 
+-- args: tail line, ex: --tail=$@
+-- defailt: tail=1
+
+AMPUTATE - runs a docker compose stop
+-- EX: att or att service_name
+
+RADIO-KNIFE - runs a docker compose down
+-- EX: rk or rk service_name
+
+MES - runs a docker compose ls 
+-- EX: mes
+
+INJECTION-SHOT - runs a docker compose build
+-- EX: is or is service_name 
