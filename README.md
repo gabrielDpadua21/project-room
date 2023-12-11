@@ -38,6 +38,12 @@ This project uses a series of custom commands to facilitate interaction with Doc
 
 - `is` or `is service_name`: This command builds a service or all services if no service name is specified. It uses the `docker compose build` command.
 
+### Uninstall
+
+```bash
+bash uninstall.sh
+```
+
 ---
 
 ## Developed with
