@@ -2,7 +2,7 @@
 
 function law 
 {
-  head -n 50 .man
+  head -n 50 ~/.room/.man
 }
 
 function room

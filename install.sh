@@ -4,6 +4,7 @@ then
   echo "Installing room..."
   mkdir ~/.room
   cp src/room.sh ~/.room/room.sh 
+  cp .man ~/.room/.man
   touch ~/.room.zsh
   echo 'alias room="bash ~/.room/room.sh room"' >> ~/.room.zsh
   echo 'alias shambles="bash ~/.room/room.sh shambles"' >> ~/.room.zsh
