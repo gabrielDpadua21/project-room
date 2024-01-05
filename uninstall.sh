@@ -1,13 +1,4 @@
-if [ -d "~/.room" ]
-then 
-    rm -rf ~/.room
-fi
-
-if test -f "~/.room.zsh"
-then
-    rm -rf ~/.room.zsh
-fi
-
+rm -rf ~/.room
+rm -rf ~/.room.zsh
 echo "Bye 😭"
-
 exec $SHELL
